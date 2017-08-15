@@ -3,12 +3,15 @@
     <head>
         <meta charset="utf-8">
         <title></title>
+        <link rel="stylesheet" href="./myBoot.css">
     </head>
     <body>
-        <input type="text" id="katNo" name="" value="">
-        <input type="submit" name="" value="num til add" onclick="numTilAdd(document.getElementById('katNo').value)"><br />
-        <input type="text" id="add" name="" value="">
-        <input type="submit" name="" value="add til num" onclick="addTilNum(document.getElementById('add').value)">
+        <div class="col-12 wrapper">
+            <input type="text" class="form-control" id="katNo" name="" value="" placeholder="Katalog nr">
+            <input type="submit" class="btn centerBlock" name="" value="Katalog nr til Adresse" onclick="numTilAdd(document.getElementById('katNo').value)"><br />
+            <input type="text" class="form-control" id="add" name="" value="" placeholder="Adresse">
+            <input type="submit" class="btn centerBlock" name="" value="Adresse til katalog nr" onclick="addTilNum(document.getElementById('add').value)">
+        </div>
         <script src="./script.js">
 
         </script>
