@@ -146,7 +146,7 @@ var items = [
     [140,'Findes ikke'],
     [141,'Findes ikke'],
     [142,'Findes ikke'],
-    [143,'Fyrreklitten 19'],
+    [143,'Fyrreklitten 10'],
     [144,'Klinken 4'],
     [145,'Wollervej 3'],
     [146,'Findes ikke'],
